@@ -10,6 +10,7 @@ import {
   PostDetails,
   UpdateProfile,
   AllUsers,
+  // heelo 
 } from "@/_root/pages";
 import AuthLayout from "./_auth/AuthLayout";
 import RootLayout from "./_root/RootLayout";
@@ -20,6 +21,8 @@ import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
 
 const App = () => {
+  
+  
   return (
     <main className="flex h-screen">
       <Routes>
